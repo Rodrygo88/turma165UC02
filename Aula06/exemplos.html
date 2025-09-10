@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" name="nome" placeholder="ex: Rodrigo" id="id_nome" min="5" maxlength="30">
+
+        <br>
+
+        <input type="radio" id="masculino" name="genero">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero" disabled>
+        <label for="masculino">Feminino</label>
+        <input type="radio" id="outro" name="genero">
+        <label for="outro">Outro</label>
+
+        <br>
+
+        <label for="pais">Nação: </label>
+        <select name="pais" id="pais">
+            <option value="brasil">Brasil</option>
+            <option value="estados_unidos">Estados Unidos</option>
+            <option value="canadá">Canadá</option>
+            <option value="japão">Japão</option>
+            <option value="alemanha">Alemanha</option>
+        </select>
+
+        <br>
+
+        <input type="checkbox" id="laranja" name="frutas" value="laranja">
+        <label for="laranja">Laranja</label>
+
+        <input type="checkbox" id="banana" name="frutas" value="banana" checked>
+        <label for="banana">Banana</label>
+
+    </form>
+
+</body>
+
+</html>
