@@ -8,15 +8,15 @@
 </head>
 
 <body>
-    <form action="">
+    <form action="salvar.html" method="get">
 
         <fieldset>
             <legend>Informações Pessoais</legend>
             <label for="nome">Nome: </label>
-            <input type="text" id="nome" placeholder="ex: Rodrigo">
+            <input type="text" id="nome" placeholder="ex: Rodrigo" name="nome" required>
             <br>
             <label for="email">Email: </label>
-            <input type="text" id="email" placeholder="rodrigo@email.com">
+            <input type="text" id="email" placeholder="rodrigo@email.com" name="email">
             <br>
             <label for="genero:">Gênero: </label>
             <input type="radio" name="genero" id="masculino">
@@ -46,9 +46,9 @@
             <input type="checkbox" name="preferencia" id="aventura">
             <label for="aventura">Aventura</label>
             <input type="checkbox" name="preferencia" id="praia">
-            <label for="aventura">Praia</label>
+            <label for="praia">Praia</label>
             <input type="checkbox" name="preferencia" id="cultura">
-            <label for="aventura">Cultura</label>
+            <label for="cultura">Cultura</label>
         </fieldset>
 
         <label for="mesagem">Mensagem:</label>
@@ -57,6 +57,7 @@
 
         <input type="reset" value="Resetar">
         <input type="submit" value="Enviar">
+
     </form>
 </body>
 
