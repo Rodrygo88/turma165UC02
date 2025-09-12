@@ -1,0 +1,43 @@
+body{
+    padding-top: 30PX;
+    background-color: rgb(38, 66, 66);
+    color: rgb(240, 243, 255);
+}
+fieldset{
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+    border: 20px dashed rgb(240, 243, 255);
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+label{
+    color: rgb(38, 66, 66);
+    font-size: 20px;
+}
+
+input[type]{
+    border-radius: 10px;
+    border: 1px solid rgb(240, 243, 255);
+    padding: 3px;
+}
+
+aside{text-align: center;
+        color: white;}
+
+footer{text-align: center;}
+
+.botao{
+    color: rgb(240, 243, 255);
+    background-color: rgb(38, 66, 66);
+    letter-spacing: 2px;
+    width: 200px;
+    height: 30px;
+}
