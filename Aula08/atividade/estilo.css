@@ -1,0 +1,90 @@
+body {
+  padding-top: 30px;
+  background-color: rgb(38, 66, 66);
+  color: rgb(38, 66, 66);
+
+}
+
+fieldset {
+  background-color: rgb(255, 196, 0);
+  border-radius: 20px;
+  border: 10px dashed white;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input {
+  color: rgb(38, 66, 66);
+  border-radius: 10px;
+  border: 1px dashed rgb(38, 66, 66);
+  padding: 10px;
+}
+
+select {
+  color: rgb(38, 66, 66);
+  border-radius: 10px;
+  border: 1px dashed rgb(38, 66, 66);
+  padding: 10px;
+}
+
+textarea {
+  color: rgb(38, 66, 66);
+  border-radius: 10px;
+  border: 1px dashed rgb(38, 66, 66);
+  padding: 10px;
+}
+
+aside {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(255, 196, 0);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.termo {
+  color: white;
+}
+
+.botao {
+  color: rgb(38, 66, 66);
+  width: 200px;
+}
+
+.botao:hover {
+  color: white;
+  background-color: rgb(38, 66, 66);
+  border: 1px dashed rgb(255, 255, 255);
+}
