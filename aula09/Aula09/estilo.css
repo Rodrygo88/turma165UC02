@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+
+  background: #1f2029;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "caixa1 caixa1 caixa2"
+    "caixa3 caixa4 caixa5";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.caixa1 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa1;
+  background: #fff;
+  color: #000;
+}
+.caixa2 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa2;
+  background: #6b6be4;
+  color: #fff;
+}
+.caixa3 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa3;
+  background: #9dd6d0;
+}
+.caixa4 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa4;
+  background: #e6d266;
+}
+.caixa5 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa5;
+  background: #cfcfcf;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+  font-size: 0.9rem;
+}
