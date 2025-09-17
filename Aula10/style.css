@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+    width: 600px;
+    height: 400px;
+
+    justify-content: center;
+    align-content: center;
+
+    background-color: rgb(42, 165, 83);
+
+    justify-items: center;
+    align-items: center;
+}
+
+.caixa{
+    background-color: rgb(210, 30, 150);}  

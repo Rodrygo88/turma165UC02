@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 22.5rem 22.5rem 22.5rem;
+    grid-template-rows: 12.5rem 12.5rem;
+
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6";
+
+    gap: 20px;
+
+}
+
+.caixa1{
+    grid-area: caixa1;
+    background-color: rgb(196, 145, 79);
+}
+.caixa2{
+    grid-area: caixa2;
+    background-color: rgb(196, 145, 79);
+}
+.caixa3{
+    grid-area: caixa3;
+    background-color: rgb(196, 145, 79);
+}
+.caixa4{
+    grid-area: caixa4;
+    background-color: rgb(196, 145, 79);
+}
+.caixa5{
+    grid-area: caixa5;
+    background-color: rgb(196, 145, 79);
+}
+.caixa6{
+    grid-area: caixa6;
+    background-color: rgb(196, 145, 79);
+}
