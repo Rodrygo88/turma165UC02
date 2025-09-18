@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+
+  background: #1f2029;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  width: 900px;
+  display: grid;
+  grid-template-areas:
+    "caixa1 caixa1 caixa2"
+    "caixa3 caixa4 caixa8"
+    "caixa6 caixa7 caixa8"
+    "ultima-caixa ultima-caixa ultima-caixa";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.caixa1 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa1;
+  background: #fff;
+  color: #000;
+}
+
+.caixa2 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa2;
+  background: #6b6be4;
+  color: #fff;
+}
+
+.caixa3 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa3;
+  background: #9dd6d0;
+}
+
+.caixa4 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa4;
+  background: #e6d266;
+}
+
+/* .caixa5 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa5;
+  background: #cfcfcf;
+} */
+
+.caixa6 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa6;
+  background: #cfcfcf;
+}
+
+.caixa7 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa7;
+  background: #ce3c3c;
+}
+
+.caixa8 {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://s2-g1.glbimg.com/bqk7R56DO_Cc5-wCWDkGbIZoF48=/0x0:584x584/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/Y/T/ZIdmDrSXu1WbWMqvyZIw/egg.jpg");
+  font-size: 3.75rem;
+}
+
+.caixa8:hover {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: caixa8;
+  background: #84e42a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/fotos-premium/um-pintinho-saindo-do-ovo_855892-1621.jpg");
+}
+
+.ultima-caixa {
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: ultima-caixa;
+  background: #ff20cb;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  font-size: 14.4px;
+}
