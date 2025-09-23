@@ -16,35 +16,46 @@ img{
     height: 200px;
     border-radius: 100%;
     margin: 10px;
+    border: 1px solid black;
 }
 
 p{
     margin-block: 10px;
 }
 
-li{
-    margin-left: 20px;
-}
-
 ul{
-    margin-block: 10px;
+    line-height: 2rem;
+    margin-inline: 20px;
 }
 
-h3{
-    margin-block: 10px;
+h4{
+    color: #0265CB;
 }
+
+footer{
+    text-align: center;
+}
+
+.caixa-direita h3{
+    color: #fab0b3;
+}
+
+.caixa-esquerda h3{
+    text-align: center;
+    margin-block: 10px;
+    color: #0265CB;
+}
+
 .caixa{
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    border-radius: 40px;
     height: 700px;
     width: 800px;
-    border: 1px solid black
 }
 
 .caixa-esquerda{
     display: grid;
+    border: 2px dashed #0265CB;
     border-radius:  40px 0 0 40px; 
     grid-template-columns: 1fr;
     padding: 20px;
@@ -52,15 +63,15 @@ h3{
     align-content: start;
     gap: 20px;
     color: white;
-    background-color: rgb(65, 65, 65);
-    height: 100%;
+    background-color: #fab0b3;
 }
 
 .perfil{
     text-align: center;
 }
 
-
 .caixa-direita{
     padding: 20px;
+    border: 2px solid #fab0b3;
+    border-radius:  4px 40px 40px 0px; 
 }
