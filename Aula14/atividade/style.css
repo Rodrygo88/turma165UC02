@@ -1,0 +1,51 @@
+div{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .rosa{
+        order: 3;
+    }
+
+    .verde{
+        order: 1;
+    }
+
+    .amarela{
+        order: 3;
+    }
+
+  
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.verde{
+    background-color: aquamarine;
+}
+
+.amarela{
+    background-color: rgb(215, 215, 5);
+}
+
+
