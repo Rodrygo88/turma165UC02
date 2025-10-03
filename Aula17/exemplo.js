@@ -3,7 +3,7 @@ function questao01(){
     let idade = prompt("Idade: ");
     let cidade = prompt("Cidade: ");
 
-    alert(`Seu nome é ${nome}, tem ${idade} e mora em ${cidade}`);    
+    alert(`Seu nome é ${nome}, tem ${idade} e mora em ${cidade}.`);    
 }
 
 function questao02(){
@@ -11,7 +11,7 @@ function questao02(){
     let desconto = 0.20
     let valor_final = valor-(valor*desconto);
 
-    alert(`Preço total do produto é R$${valor}, com 20% de desconto fica de R$${valor_final}`);  
+    alert(`Preço total do produto é R$${valor}, com 20% de desconto fica de R$${valor_final}.`);  
 }
 
 function questao03(){
@@ -19,19 +19,25 @@ function questao03(){
     let convertido = (celsius * 9/5) + 32;
 
 
-    alert(`A temperatura de ${celsius}°C convertida fica de ${convertido}°F`);  
+    alert(`A temperatura de ${celsius}°C convertida fica de ${convertido}°F.`);  
 };
 
 
 
 function questao04(){
-    let base = number(prompt("Base: "));
-    let altura = number(prompt("Altura: "));
+    let base = Number(prompt("Base: "));
+    let altura = Number(prompt("Altura: "));
 
     let perimetro = base+base+altura+altura;
     let area = base*altura;
 
-    alert(`O perimetro é de ${perimetro} e a área${area}`);  
+    alert(`O perimetro é de ${perimetro} e a área ${area}`);  
 };
 
-questao04();
+function questao05(){
+    let ano_nascimento = Number(prompt("Ano de Nascimento: "));
+    let ano_atual = Number(2025);
+    let idade = ano_atual - ano_nascimento;
+
+    alert(`Você nasceu em ${ano_nascimento} e tem ${idade} anos de idade.`);  
+}
