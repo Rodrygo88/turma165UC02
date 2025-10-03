@@ -3,18 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Questões</title>
   </head>
   <body>
     <main>
-      <hr />
       <section>
         <h2>Questão 01</h2>
+
+        <label for="name">Nome: </label>
+        <input type="text" name="nome" id="nome" />
+
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade" />
+
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" id="cidade" />
+
+        <button onclick="questao01()">Enviar</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta01"></p>
       </section>
 
-      <hr />
       <section>
         <h2>Questão 02</h2>
+
+        <label for="valor">Valor Produto: </label>
+        <input type="number" name="valor" id="valor" />
+
+        <button onclick="questao02()">Calcular Desconto</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta02"></p>
+      </section>
+
+      <section>
+        <h2>Questão 03</h2>
+
+        <label for="temperatura">Temperatura em °C: </label>
+        <input type="number" name="temperatura" id="temperatura" />
+
+        <button onclick="questao03()">Converter Temperatura</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta03"></p>
+      </section>
+
+      <section>
+        <h2>Questão 04</h2>
+
+        <label for="base">Base: </label>
+        <input type="number" name="base" id="base" />
+
+        <label for="altura">Altura: </label>
+        <input type="number" name="altura" id="altura" />
+
+        <button onclick="questao04()">Calcular</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta04"></p>
+      </section>
+
+      <section>
+        <h2>Questão 05</h2>
+
+        <label for="ano_nascimento">Ano de Nascimento: </label>
+        <input type="number" name="ano_nascimento" id="ano_nascimento" />
+
+        <button onclick="questao05()">Calcular Idade</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta05"></p>
+      </section>
+
+      <section>
+        <h2>Questão 06</h2>
+
+        <label for="idade_atual">Idade: </label>
+        <input type="number" name="idade_atual" id="idade_atual" />
+
+        <button onclick="questao06()">Calcular Ano de Nascimento</button>
+
+        <h4>Resposta:</h4>
+        <p id="resposta06"></p>
       </section>
     </main>
 
