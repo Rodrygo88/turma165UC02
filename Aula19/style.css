@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #0000003d;
+}
+
+h1{
+    text-align: center;
+}
