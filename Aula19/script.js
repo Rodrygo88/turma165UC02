@@ -58,13 +58,15 @@ function verificarNumero(){
     let numero = parseInt(document.getElementById("numero").value);
     let resposta_campo = document.getElementById("resposta3");
     let calculo = numero % 2;
-    resposta = ""
+    let resposta = "";
+
     if (calculo == 0){
         resposta = "Número é PAR"
     } else{
         resposta = "Número é IMPAR"
     }
-    resposta_campo.textContent = resposta;
+
+    resposta_campo.textContent = `${calculo} e resposta ${resposta}`;
 }
 
 function verificarNota(){
@@ -112,6 +114,33 @@ function mudarCor2(){
     let cor = document.getElementById("cor2").value;
     
     document.body.style.backgroundColor = cor;
+}
 
+function calcularIMC(){
+    let altura = parseFloat(document.getElementById("altura").value);
+    let peso = parseFloat(document.getElementById("peso").value);
 
+    let imc = peso/(altura*altura); 
+    let estado = ""
+
+    if (imc < 18.5){
+        estado = "Magreza";
+
+    } else if(imc <= 24.9){
+        estado = "Normal";
+
+    } else if(imc <= 29.9){
+        estado = "Sobrepeso - Obesidade I";
+
+    } else if(imc <= 39.9){
+        estado = "Obesidade - Obesidade II";
+
+    }else if(imc >= 40,0){
+        estado = "Obesidade Grave - Obesidade III"
+    }else{
+        estado = "Valores invalidos"
+    }
+    
+    let resposta_campo = document.getElementById("resposta6");
+    resposta_campo.textContent = `Seu IMC é de ${parseInt(imc)}, resultado: ${estado}`;
 }
