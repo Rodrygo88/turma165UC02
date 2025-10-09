@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
+
 <body>
 
-    <div id="display">
+    <h1>CALCULADORA</h1>
+    <br>
+
+    <div id="display" class="display">
 
     </div>
-    
+
     <main>
 
 
-        <button onclick="pegarValor(7)"><h1>7</h1></button>
-        <button onclick="pegarValor(8)"><h1>8</h1></button>
-        <button onclick="pegarValor(9)"><h1>9</h1></button>
-        <button onclick="pegarValor('/')"><h1>/</h1></button>
+        <button onclick="pegarValor(7)">
+            <h1>7</h1>
+        </button>
+        <button onclick="pegarValor(8)">
+            <h1>8</h1>
+        </button>
+        <button onclick="pegarValor(9)">
+            <h1>9</h1>
+        </button>
+        <button onclick="pegarValor('/')" class="botao_expressao">
+            <h1>/</h1>
+        </button>
 
-        <button onclick="pegarValor(4)"><h1>4</h1></button>
-        <button onclick="pegarValor(5)"><h1>5</h1></button>
-        <button onclick="pegarValor(6)"><h1>6</h1></button>
-        <button onclick="pegarValor('x')"><h1>x</h1></button>
+        <button onclick="pegarValor(4)">
+            <h1>4</h1>
+        </button>
+        <button onclick="pegarValor(5)">
+            <h1>5</h1>
+        </button>
+        <button onclick="pegarValor(6)">
+            <h1>6</h1>
+        </button>
+        <button onclick="pegarValor('*')" class="botao_expressao">
+            <h1>x</h1>
+        </button>
 
-        <button onclick="pegarValor(1)"><h1>1</h1></button>
-        <button onclick="pegarValor(2)"><h1>2</h1></button>
-        <button onclick="pegarValor(3)"><h1>3</h1></button>
-        <button onclick="pegarValor('+')"><h1>+</h1></button>
+        <button onclick="pegarValor(1)">
+            <h1>1</h1>
+        </button>
+        <button onclick="pegarValor(2)">
+            <h1>2</h1>
+        </button>
+        <button onclick="pegarValor(3)">
+            <h1>3</h1>
+        </button>
+        <button onclick="pegarValor('+')" class="botao_expressao">
+            <h1>+</h1>
+        </button>
 
-        <button onclick="pegarValor(0)"><h1>0</h1></button>
-        <button onclick="calcular()"><h1>=</h1></button>
-        <button onclick="apagar()"><h1><</h1></button>
-        <button onclick="pegarValor('-')"><h1>-</h1></button>
+        <button onclick="pegarValor(0)">
+            <h1>0</h1>
+        </button>
+        <button onclick="calcular()" class="botao_expressao">
+            <h1>=</h1>
+        </button>
+        <button onclick="apagar()" class="botao_expressao">
+            <h1>
+                <
+            </h1>
+        </button>
+        <button onclick="pegarValor('-')" class="botao_expressao">
+            <h1>-</h1>
+        </button>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>

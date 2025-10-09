@@ -1,40 +1,22 @@
-let valor = ""
+let valores = ""
 
 function pegarValor(numero){
     let display = document.getElementById("display");
     display.innerHTML = "";
-    valor += String(numero)
-    display.innerHTML = `<h1>${valor}</h1>`;
+    valores += String(numero)
+    display.innerHTML = `<h1>${valores}</h1>`;
 }
 
 function apagar(){
-    valor = "";
+    valores = "";
     let display = document.getElementById("display");
-    display.innerHTML = `<h1>${valor}</h1>`;
+    display.innerHTML = `<h1>${valores}</h1>`;
 }
 
 function calcular(){
-    alert("O valor1 é " + valor)
+    let display = document.getElementById("display");
+    resultado = eval(valores);
+    display.innerHTML = `<h1>${resultado.toFixed(2)}</h1>`;
+    
 }
-
-// function dividir(){
-//     let display = document.getElementById("display");
-//     display.innerHTML += `<h1> / </h1>`;
-// }
-
-// function multiplicar(){
-//     let display = document.getElementById("display");
-//     display.innerHTML += `<h1> x </h1>`;
-// }
-
-// function somar(){
-//     let display = document.getElementById("display");
-//     display.innerHTML += `<h1> + </h1>`;
-// }
-
-// function diminuir(){
-//     let display = document.getElementById("display");
-//     display.innerHTML += `<h1> - </h1>`;
-// }
-
 
