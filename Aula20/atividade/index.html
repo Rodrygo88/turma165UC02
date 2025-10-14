@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 1</title>
+</head>
+
+<body>
+
+    <h1>Medias</h1>
+    <div>
+        <label for="valor">VALOR X</label>
+        <input type="number" name="num1" id="num1">
+        <label for="valor">VALOR Y</label>
+        <input type="number" name="num2" id="num2">
+        <label for="valor">VALOR Z</label>
+        <input type="number" name="num3" id="num3">
+
+        <select name="media" id="media">
+            <option value="0">Escolha a media</option>
+            <option value="1">Aritmética</option>
+            <option value="2">Ponderada</option>
+            <option value="3">Geométrica</option>
+        </select>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <p id="resposta"></p>
+        <script src="script.js"></script>
+    </div>
+
+    <h1>Calculadora</h1>
+    <div>
+        <label for="valor">VALOR X</label>
+        <input type="number" name="valor1" id="valor1">
+        <label for="valor">VALOR Y</label>
+        <input type="number" name="valor2" id="valor2">
+
+
+        <select name="calculos" id="calculos">
+            <option value="0">Escolha o calculo</option>
+            <option value="1">Soma +</option>
+            <option value="2">Subtração -</option>
+            <option value="3">Multiplicação x</option>
+            <option value="4">Divisão %</option>
+        </select>
+
+        <button onclick="calculadora()">Calcular</button>
+
+        <p id="resposta_calculadora"></p>
+        <script src="script.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
