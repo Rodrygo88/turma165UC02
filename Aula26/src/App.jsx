@@ -1,15 +1,15 @@
-import Card from "./components/Card/Card"
+import Header from "./components/Header/Header"
+import Main from "./components/Main/Main"
+import Footer from "./components/Footer/Footer"
 
 
 function App() {
-  let perguntas = ["O que é um componente no React?","Qual a função do arquivo App.jsx ?","Qual a função do arquivo main.jsx ?", "Quais fases de vida dos componentes"]
+
   return (
     <>
-      <Card pergunta={perguntas[0]} resposta="aaa"/>
-      <Card pergunta={perguntas[1]} resposta="bbb"/>
-      <Card pergunta={perguntas[2]} resposta="ccc"/>
-      <Card pergunta={perguntas[3]} resposta="ddd"/>
-      
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }
