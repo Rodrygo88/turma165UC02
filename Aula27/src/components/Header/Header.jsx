@@ -1,7 +1,12 @@
-export default function Header({}){
-    return(
+import style from "./Header.module.css";
+
+export default function Header({ }) {
+    return (
         <>
-            <h1>Header</h1>
+            <header className={style.topo}>
+                <h1>Site React</h1>
+            </header>
+
         </>
     )
 }

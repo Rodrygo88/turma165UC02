@@ -1,7 +1,12 @@
-export default function Footer(){
-    return(
+import style from "./Footer.module.css";
+
+export default function Footer() {
+    return (
         <>
-            <h1>Footer</h1>
+            <footer className={style.rodape}>
+                <h1>Footer</h1>
+            </footer>
+
         </>
     )
-}
+} 

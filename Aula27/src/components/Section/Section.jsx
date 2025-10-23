@@ -1,9 +1,11 @@
+import style from "./Section.module.css";
+
 export default function Section({conteudo}){
     return(
         <>
-            <div>
+            <section className={style.section}>
                 <p>{conteudo}</p>
-            </div>
+            </section>
         </>
     )
 }
