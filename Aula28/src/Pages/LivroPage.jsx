@@ -1,30 +1,8 @@
-import List from "../components/List";
+import List from "../components/List/List";
+import style from "./LivroPage.module.css";
+import { bancoLivros } from "../data/banco";
 
 export default function LivroPage() {
-    const livros = [
-        {
-        titulo: "Livro1",
-        autor: "Autor1",
-        ano: "Ano1",
-        genero: "Genero1",
-        url: ""
-    },
-
-        {
-        titulo: "Livro2",
-        autor: "Autor2",
-        ano: "Ano2",
-        genero: "Genero2",
-        url: ""
-    },
-        {
-        titulo: "Livro3",
-        autor: "Autor3",
-        ano: "Ano3",
-        genero: "Genero3",
-        url: ""
-    }
-    ]
 
     return (
         <>
@@ -32,10 +10,10 @@ export default function LivroPage() {
             <h1>Catálogo de Livros</h1>
         </header>
         <main>
-            <List listaLivros={livros}/>
+            <List listaLivros={bancoLivros}/>
         </main>
         <footer>
-            <p>2025</p>
+            <h2>Todos os direitos reservados - 2025</h2>
         </footer>
             
         </>

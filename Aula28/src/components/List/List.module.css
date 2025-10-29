@@ -1,0 +1,9 @@
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #D9BFA0;
+    width: 100%;
+    height: 80vh;
+    padding: 20px;
+}
