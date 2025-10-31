@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    height: 10vh;
+}
+
+main{
+    height: 80vh;
+}
+
+footer{
+    height: 10vh;
+}
