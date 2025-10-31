@@ -5,11 +5,12 @@ import Lampada from "../Lampada/Lampada";
 
 export default function Exemplo(){
     const [valor, setValor] = useState(0);
+    const [tema, setTema] = useState(false);
 
     return (
       <>    
 
-        <div>
+        <div className={tema ? style.light : style.dark }>
             <p>O valor atual é: {valor}</p>
             <button onClick={ ()=> setValor(valor + 1)}>Aumentar!</button>
             <button onClick={ ()=> setValor(valor > 0 ? valor - 1 : 0)}> Diminuir!</button>
@@ -17,6 +18,11 @@ export default function Exemplo(){
             <Mensagem />
             <br />
             <Lampada />
+
+            <br />
+            <button onClick={()=> setTema(!tema)}>{tema ? "Tema Claro" : "Tema Escuro"} </button>
+            
+  
         </div>
         
       </>
