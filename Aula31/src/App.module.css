@@ -1,0 +1,13 @@
+div{
+    height: 100vh;
+  
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+ 
+.light{
+    background-color: rgb(255, 255, 255);
+}
