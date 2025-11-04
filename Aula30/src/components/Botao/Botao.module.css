@@ -1,14 +1,17 @@
 .button{
     padding: 0.9rem 1.2rem;
     margin: 0.3rem;
-    border: none;
-    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 2rem;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
+    width: 100px;
+    height: 100px;
 }
 
 .button:hover{
-    background-color: rgb(48, 100, 255);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.05);
 }
 

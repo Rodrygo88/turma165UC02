@@ -48,8 +48,8 @@ export default function CalculadoraPage() {
                 <div>
                     <Botao label="+" onClick={() => calcular("+")} />
                     <Botao label="-" onClick={() => calcular("-")} />
-                    <Botao label="x" onClick={() => calcular("*")} type="sucess" />
-                    <Botao label="%" onClick={() => calcular("%")} type="danger" />
+                    <Botao label="×" onClick={() => calcular("*")} type="sucess" />
+                    <Botao label="÷" onClick={() => calcular("%")} type="danger" />
                 </div>  
                 <p>Resultado: {resultado}</p>      
             </main>
