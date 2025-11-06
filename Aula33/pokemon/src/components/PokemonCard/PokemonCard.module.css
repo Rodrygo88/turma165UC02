@@ -1,0 +1,21 @@
+.tela{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 5px solid #D20B41;
+    width: 210px;
+    height: 180px;
+    border-radius: 20px;
+    position: absolute;
+    top: 198px;
+    left: 44px;
+    font-size: 10px;
+}
+
+.pokemon_imagem{
+    width: 90px;
+}
